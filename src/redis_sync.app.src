@@ -1,0 +1,12 @@
+%% -*- mode: erlang;erlang-indent-level: 4;indent-tabs-mode: nil -*-
+%% ex: ts=4 sw=4 ft=erlang et
+{application, redis_sync,
+ [{description, "redis sync"},
+  {vsn, "1.0"},
+  {registered, []},
+  {applications, [kernel, stdlib, rock_util, eredis_cluster]},
+  {env, []},
+  {mod, {redis_sync_app, []}}
+ ]}.
+
+

@@ -1,0 +1,4 @@
+%% encoding: UTF-8
+{application,redis_sync}.
+{modules,[redis_sync,redis_sync_app,redis_sync_sup,redis_table,
+          redis_table_sup]}.
